@@ -1,0 +1,35 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "packages/robot_test/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "packages/robot_test_bloc/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "packages/robot_test_mockito/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "packages/robot_test_mocktail/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "packages/examples/robot_test"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "packages/examples/robot_test_with_bloc"
+    schedule:
+      interval: "daily"

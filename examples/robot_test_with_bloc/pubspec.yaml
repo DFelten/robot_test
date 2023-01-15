@@ -1,0 +1,21 @@
+name: robot_test_with_bloc_examples
+description: Example project for robot test.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  robot_test:
+    path: ../../packages/robot_test
+  robot_test_bloc:
+    path: ../../packages/robot_test_bloc
+  very_good_analysis: ^3.1.0
