@@ -1,0 +1,19 @@
+name: robot_test_with_mockito_examples
+description: Example project for robot test with Mockito.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.3.2
+  robot_test_mockito:
+    path: ../../packages/robot_test_mockito
+  very_good_analysis: ^3.1.0

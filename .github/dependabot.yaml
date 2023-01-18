@@ -33,3 +33,11 @@ updates:
     directory: "packages/examples/robot_test_with_bloc"
     schedule:
       interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "packages/examples/robot_test_with_mockito"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "packages/examples/robot_test_with_mocktail"
+    schedule:
+      interval: "daily"

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-class TestApp extends StatefulWidget {
-  const TestApp({
+class TestRobotApp extends StatefulWidget {
+  const TestRobotApp({
     required this.child,
     required this.tester,
     this.displaySize,
@@ -23,10 +23,10 @@ class TestApp extends StatefulWidget {
   final List<LocalizationsDelegate<dynamic>>? localizationsDelegates;
 
   @override
-  State<TestApp> createState() => _TestAppState();
+  State<TestRobotApp> createState() => _TestRobotAppState();
 }
 
-class _TestAppState extends State<TestApp> {
+class _TestRobotAppState extends State<TestRobotApp> {
   @override
   void initState() {
     widget.tester.binding.setSurfaceSize(widget.displaySize);

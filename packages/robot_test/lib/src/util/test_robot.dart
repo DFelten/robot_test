@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:robot_test/src/widgets/test_app.dart';
+import 'package:robot_test/src/widgets/test_robot_app.dart';
 
 /// Abstract class for the test robot. With its help, tests can be standardized
 /// and simplified.
@@ -34,7 +34,7 @@ abstract class TestRobot {
   List<LocalizationsDelegate<dynamic>> get localizationsDelegates => [];
 
   /// The widget that will be tested in the test.
-  Widget testApp({required Widget child, Size? displaySize}) => TestApp(
+  Widget testApp({required Widget child, Size? displaySize}) => TestRobotApp(
         tester: tester,
         localizationsDelegates: localizationsDelegates,
         child: child,
